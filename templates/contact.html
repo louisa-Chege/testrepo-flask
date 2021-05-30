@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/styles.css" />
+    </head>
+   <body>
+    <header>
+        <div class="mylogo">
+            <img src="{{url_for('static', filename='images/sam_logo.png')}}" width="50" height="50" alt="sam's logo">
+        </div>
+
+        <button class="nav-btn" aria-label="nav-button">
+            <span class="btn"></span>
+        </button>
+
+        <nav class="mynav">
+            <ul class="mynav_ls">
+                <li class="mynav_item"> <a href="#home" class="mynav_link">Home</a></li>
+                <li class="mynav_item"> <a href="#skills" class="mynav_link">Creative Styles</a></li>
+                <li class="mynav_item"> <a href="#about" class="mynav_link">About Me</a></li>
+                <li class="mynav_item"> <a href="#projects" class="mynav_link">Art Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+      <head>
+         <title>Contact Us</title>
+      </head>
+      <p>Add your details:</p>
+      <div class="forms"></div>
+      <form action="connect.php" method="post">
+        <fieldset><legend>Personal</legend>
+            <label for="field1"><span>FirstName <span class="required">*</span></span><input type="text" class="input-field" name="FirstName" value="" /></label>
+            <label for="field1"><span>LastName <span class="required">*</span></span><input type="text" class="input-field" name="LastName" value="" /></label>
+            <label for="field2"><span>Email <span class="required">*</span></span><input type="email" class="input-field" name="Email" value="" /></label>
+            
+            <label for="field6"><span>Message <span class="required">*</span></span><textarea name="Message" class="textarea-field"></textarea></label>
+            <label><span> </span><input type="submit" value="Submit" /></label>
+        </fieldset>
+      </form>
+    </div>
+</body>
+      
+      <footer class="footer">
+        
+        <a href="mailto:contact@gmail.com" class="footer_link">contact@gmail.com</a>
+
+        <ul class="social_links">
+            <li class="socialitem">
+                <a class="socialitemlink" href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li class="socialitem">
+                <a class="socialitemlink" href="https://facebook.com"><i class="fab fa-facebook-square"></i> Facebook</a>
+            </li>
+            <li class="socialitem">
+                <a class="socialitemlink:" href="https://instagram.com"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </li>
+        </ul>
+    </footer>
+   </body> 
+</html>
+
+
+
+
+
+
+
+
+
+
